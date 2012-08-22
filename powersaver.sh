@@ -1,4 +1,13 @@
 #!/bin/bash
+# - title        : Linux Startup and Power Saver
+# - description  : This script will assist in Saving Power based on sates and or commands
+# - License      : GPLv3
+# - author       : Kevin Carter
+# - date         : 2012-08-20
+# - version      : 1.0    
+# - usage        : bash powersaver.sh
+# - bash_version : >= 3.2.48(1)-release
+#### ========================================================= ####
 
 # Root user check for install 
 USERCHECK=$( whoami  )
